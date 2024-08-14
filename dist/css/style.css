@@ -1656,7 +1656,7 @@ progress {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
@@ -2120,7 +2120,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .col-md {
     flex: 1 0 0%;
   }
@@ -4516,7 +4516,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .dropdown-menu-md-start {
     --bs-position: start;
   }
@@ -5127,7 +5127,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -5679,7 +5679,7 @@ textarea.form-control-lg {
   font-size: var(--bs-pagination-font-size);
   color: var(--bs-pagination-color);
   text-decoration: none;
-  background-color: var(--bs-pagination-bg);
+  background-color: #233242;
   border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -6142,7 +6142,7 @@ textarea.form-control-lg {
     border-left-width: var(--bs-list-group-border-width);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .list-group-horizontal-md {
     flex-direction: row;
   }
@@ -7535,7 +7535,7 @@ textarea.form-control-lg {
     visibility: visible;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .offcanvas-md {
     --bs-offcanvas-height: auto;
     --bs-offcanvas-border-width: 0;
@@ -8184,7 +8184,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .sticky-md-top {
     position: sticky;
     top: 0;
@@ -11552,7 +11552,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .float-md-start {
     float: left !important;
   }
@@ -13487,7 +13487,7 @@ textarea.form-control-lg {
   text-shadow: 4px 4px 0 #fff, 6px 6px 0 #343a40;
   line-height: 210px;
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 750px) and (max-width: 991.98px) {
   .error-box .error-title {
     font-size: 150px;
     line-height: 150px;
@@ -14115,7 +14115,7 @@ textarea.form-control-lg {
   position: relative;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   #main-wrapper[data-layout=vertical][data-sidebartype=full] .topbar .top-navbar .navbar-header {
     width: 250px;
   }
@@ -15087,7 +15087,7 @@ svg.tea #steamR {
     display: none;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 750px) and (max-width: 991.98px) {
   #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav > .sidebar-item {
     flex: auto;
   }
@@ -15106,7 +15106,7 @@ svg.tea #steamR {
     top: 64px;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 750px) and (max-width: 991.98px) {
   #main-wrapper[data-layout=horizontal] .topbar .top-navbar .navbar-collapse.show,
 #main-wrapper[data-layout=horizontal] .topbar .top-navbar .navbar-collapse.collapsing {
     display: block;
@@ -15175,7 +15175,7 @@ html[dir=rtl] .float-none {
     float: none !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   html[dir=rtl] .float-md-start {
     float: right !important;
   }
@@ -15219,7 +15219,7 @@ html[dir=rtl] .dropdown-menu-end {
     left: 0 /* rtl:ignore */;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   html[dir=rtl] .dropdown-menu-md-start {
     --bs-position: start;
     right: 0 /* rtl:ignore */;
@@ -15953,7 +15953,7 @@ html[dir=rtl] .mx-sm-auto {
     margin-right: auto !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   html[dir=rtl] .m-md-0 {
     margin: 0 !important;
   }
@@ -16685,7 +16685,7 @@ html[dir=rtl] .text-center {
     text-align: center !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   html[dir=rtl] .text-md-start {
     text-align: right !important;
   }
@@ -17226,7 +17226,7 @@ html[dir=rtl] #main-wrapper[data-sidebartype=overlay].show-sidebar .left-sidebar
   right: 0;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   html[dir=rtl] #main-wrapper[data-sidebar-position=fixed][data-sidebartype=full] .topbar .top-navbar .navbar-collapse, html[dir=rtl] #main-wrapper[data-sidebar-position=fixed][data-sidebartype=overlay] .topbar .top-navbar .navbar-collapse {
     margin-right: 250px;
     margin-left: 0;
@@ -17295,7 +17295,7 @@ html[dir=rtl] #main-wrapper[data-layout=horizontal] #main-wrapper[data-sidebarty
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   html[dir=rtl] #main-wrapper[data-sidebartype=full][data-layout=horizontal] .sidebar-nav #sidebarnav > .sidebar-item ul {
     right: 0;
     left: auto;
@@ -17322,7 +17322,7 @@ html[dir=rtl] #main-wrapper[data-layout=horizontal][data-boxed-layout=boxed] .pa
     margin-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 750px) and (max-width: 991.98px) {
   html[dir=rtl] #main-wrapper[data-layout=horizontal][data-sidebar-position=fixed][data-sidebartype=mini-sidebar] .topbar .top-navbar .navbar-collapse {
     margin-right: 0;
   }
@@ -24606,7 +24606,7 @@ button.toast-close-button {
     right: 0.2em;
   }
 }
-@media all and (min-width: 481px) and (max-width: 768px) {
+@media all and (min-width: 481px) and (max-width: 750px) {
   .toast-container > div {
     padding: 15px 15px 15px 50px;
     width: 25em;
@@ -24970,7 +24970,7 @@ File: css
   background-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .wizard-content .wizard > .steps > ul {
     margin-bottom: 20px;
   }
@@ -25692,7 +25692,7 @@ Main Components
   line-height: 30px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 750px) {
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;
   }
@@ -26156,7 +26156,7 @@ Main Components
     width: 100%;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 750px) and (max-width: 991.98px) {
   .left-part.list-of-user {
     position: fixed;
     left: -260px;
