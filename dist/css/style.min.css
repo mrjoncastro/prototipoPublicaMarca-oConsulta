@@ -38977,7 +38977,7 @@ fieldset:disabled .btn {
     --bs-pagination-focus-bg: var(--bs-secondary-bg);
     --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(116, 96, 238, 0.25);
     --bs-pagination-active-color: #fff;
-    --bs-pagination-active-bg: #137eff;
+    --bs-pagination-active-bg: #233242;
     --bs-pagination-active-border-color: #137eff;
     --bs-pagination-disabled-color: var(--bs-secondary-color);
     --bs-pagination-disabled-bg: var(--bs-secondary-bg);
@@ -38992,10 +38992,10 @@ fieldset:disabled .btn {
     display: block;
     padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
     font-size: var(--bs-pagination-font-size);
-    color: var(--bs-pagination-color);
+    color: #233242;
     text-decoration: none;
-    background-color: #233242;
-    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+    background-color: white;
+    border: var(--bs-pagination-border-width) solid #233242;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -39007,9 +39007,9 @@ fieldset:disabled .btn {
 
 .page-link:hover {
     z-index: 2;
-    color: var(--bs-pagination-hover-color);
-    background-color: var(--bs-pagination-hover-bg);
-    border-color: var(--bs-pagination-hover-border-color)
+    color: white;
+    background-color: #233242;
+    border-color: white;
 }
 
 .page-link:focus {
@@ -39025,7 +39025,7 @@ fieldset:disabled .btn {
     z-index: 3;
     color: var(--bs-pagination-active-color);
     background-color: var(--bs-pagination-active-bg);
-    border-color: var(--bs-pagination-active-border-color)
+    border-color: #233242;
 }
 
 .disabled>.page-link,
@@ -59014,9 +59014,6 @@ select.form-control.form-control-line {
     font-weight: 500
 }
 
-.page-link {
-    color: #137eff
-}
 
 .table.dataTable {
     border-collapse: collapse !important
