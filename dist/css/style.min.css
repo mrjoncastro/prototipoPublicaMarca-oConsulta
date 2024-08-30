@@ -48208,7 +48208,7 @@ svg.tea #steamR {
     transition: .2s ease-in;
     box-shadow: 1px 0 7px rgba(0, 0, 0, .05);
     background: #fff;
-    height: 64px
+    height: 90px
 }
 
 .topbar .navbar-collapse {
@@ -48217,7 +48217,9 @@ svg.tea #steamR {
 
 .topbar .top-navbar {
     min-height: 64px;
-    padding: 0
+    padding: 0;
+    align-items: center;
+    height: inherit;
 }
 
 .topbar .top-navbar .dropdown-toggle::after {
@@ -48569,8 +48571,8 @@ svg.tea #steamR {
 }
 
 .sidebar-nav ul {
-    margin: 0;
-    padding: 0
+    margin-top: 20%;
+    padding: 0;
 }
 
 .sidebar-nav ul li {
@@ -63461,4 +63463,25 @@ html[dir=rtl] [type=radio].material-inputs+label:before {
 
 .mailbox .message-center .message-item .user-img .offline {
     background: #ffbc34
+}
+
+.linhas_publica1 {
+    background-color: #179766;
+    height: 10px;
+    z-index: 51;
+    margin-top: 1px;
+}
+
+.linhas_publica2 {
+    background-color: #F6DE44;
+    height: 10px;
+    z-index: 51;
+    margin-top: 1px;
+}
+
+.linhas_publica3 {
+    background-color: #3846A7;
+    height: 10px;
+    z-index: 51;
+    margin-top: 1px;
 }
