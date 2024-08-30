@@ -47691,9 +47691,10 @@ fieldset:disabled .btn {
 
 .page-wrapper {
     position: relative;
+    margin-left: 17%;
     background: #f2f4f5;
     display: none;
-    transition: .2s ease-in
+    transition: .2s ease-in;
 }
 
 .page-wrapper>.container-fluid,
@@ -48890,43 +48891,43 @@ svg.tea #steamR {
 }
 
 @media (min-width:1000px) {
-    #main-wrapper[data-layout=horizontal] {
+    #main-wrapper[data-layout=vertical] {
         background: #f2f4f5
     }
 
-    #main-wrapper[data-layout=horizontal] .topbar {
+    #main-wrapper[data-layout=vertical] .topbar {
         transition: 0s
     }
 
-    #main-wrapper[data-layout=horizontal][data-boxed-layout=boxed] .page-wrapper,
-    #main-wrapper[data-layout=horizontal][data-boxed-layout=boxed] .scroll-sidebar,
-    #main-wrapper[data-layout=horizontal][data-boxed-layout=boxed] .top-navbar {
+    #main-wrapper[data-layout=vertical][data-boxed-layout=boxed] .page-wrapper,
+    #main-wrapper[data-layout=vertical][data-boxed-layout=boxed] .scroll-sidebar,
+    #main-wrapper[data-layout=vertical][data-boxed-layout=boxed] .top-navbar {
         position: relative;
         max-width: 1300px;
         margin: 0 auto
     }
 
-    #main-wrapper[data-layout=horizontal][data-boxed-layout=boxed] .sidebar-nav #sidebarnav {
+    #main-wrapper[data-layout=vertical][data-boxed-layout=boxed] .sidebar-nav #sidebarnav {
         flex-wrap: wrap
     }
 
-    #main-wrapper[data-layout=horizontal][data-boxed-layout=boxed] .sidebar-nav #sidebarnav>.sidebar-item>.has-arrow:after {
+    #main-wrapper[data-layout=vertical][data-boxed-layout=boxed] .sidebar-nav #sidebarnav>.sidebar-item>.has-arrow:after {
         display: block
     }
 
-    #main-wrapper[data-layout=horizontal][data-sidebar-position=fixed] .page-wrapper {
+    #main-wrapper[data-layout=vertical][data-sidebar-position=fixed] .page-wrapper {
         padding-top: 125px
     }
 
-    #main-wrapper[data-layout=horizontal] .topbar .top-navbar .navbar-header {
+    #main-wrapper[data-layout=vertical] .topbar .top-navbar .navbar-header {
         width: 230px
     }
 
-    #main-wrapper[data-layout=horizontal] .topbar .sidebartoggler {
+    #main-wrapper[data-layout=vertical] .topbar .sidebartoggler {
         display: none
     }
 
-    #main-wrapper[data-layout=horizontal] .left-sidebar {
+    #main-wrapper[data-layout=vertical] .left-sidebar {
         position: relative;
         width: 100%;
         height: auto;
@@ -48935,52 +48936,52 @@ svg.tea #steamR {
         transition: 0s
     }
 
-    #main-wrapper[data-layout=horizontal] .left-sidebar .scroll-sidebar {
+    #main-wrapper[data-layout=vertical] .left-sidebar .scroll-sidebar {
         height: 50px
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav ul {
+    #main-wrapper[data-layout=vertical] .sidebar-nav ul {
         display: flex
     }
 
-    #main-wrapper[data-layout=horizontal] .scroll-sidebar {
+    #main-wrapper[data-layout=vertical] .scroll-sidebar {
         height: auto
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav {
         display: flex;
         width: 100%
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav .sidebar-item {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav .sidebar-item {
         position: relative;
         width: auto
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item {
         border-right: 1px solid rgba(0, 0, 0, .1)
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item>.has-arrow:after {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item>.has-arrow:after {
         transform: rotate(-135deg) translate(0, -50%)
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:last-child>.first-level {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:last-child>.first-level {
         right: 0;
         left: auto
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item>.two-column+.first-level {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item>.two-column+.first-level {
         width: 400px
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item>.two-column+.first-level>.sidebar-item {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item>.two-column+.first-level>.sidebar-item {
         float: left;
         vertical-align: top;
         width: 50%
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item ul {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item ul {
         position: absolute;
         left: 0;
         top: auto;
@@ -48991,72 +48992,72 @@ svg.tea #steamR {
         box-shadow: 5px 10px 20px rgba(0, 0, 0, .1)
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.mega-dropdown {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.mega-dropdown {
         position: static
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.mega-dropdown .first-level {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.mega-dropdown .first-level {
         width: 100%
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.mega-dropdown .first-level>li {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.mega-dropdown .first-level>li {
         width: 25%;
         float: left
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:hover {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:hover {
         background: rgba(0, 0, 0, .035)
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level,
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level.collapse {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level,
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level.collapse {
         display: block
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level.collapse>li,
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level>li {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level.collapse>li,
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:hover ul.first-level>li {
         background: rgba(0, 0, 0, .035)
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item ul.second-level {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item ul.second-level {
         left: 220px;
         top: 0
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item .first-level .right-side-dd ul.second-level,
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item:last-child>.first-level ul.second-level {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item .first-level .right-side-dd ul.second-level,
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item:last-child>.first-level ul.second-level {
         right: 220px;
         top: 0;
         left: auto
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav ul.first-level>.sidebar-item:hover ul.second-level {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav ul.first-level>.sidebar-item:hover ul.second-level {
         display: block
     }
 
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav .badge,
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav .nav-small-cap,
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav .sidebar-footer,
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav .user-pro {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav .badge,
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav .nav-small-cap,
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav .sidebar-footer,
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav .user-pro {
         display: none
     }
 }
 
 @media (min-width:750px) and (max-width:991.98px) {
-    #main-wrapper[data-layout=horizontal] .sidebar-nav #sidebarnav>.sidebar-item {
+    #main-wrapper[data-layout=vertical] .sidebar-nav #sidebarnav>.sidebar-item {
         flex: auto
     }
 }
 
 @media (max-width:991.98px) {
 
-    #main-wrapper[data-layout=horizontal][data-sidebartype=mini-sidebar] .left-sidebar,
-    #main-wrapper[data-layout=horizontal][data-sidebartype=mini-sidebar] .left-sidebar .sidebar-footer {
+    #main-wrapper[data-layout=vertical][data-sidebartype=mini-sidebar] .left-sidebar,
+    #main-wrapper[data-layout=vertical][data-sidebartype=mini-sidebar] .left-sidebar .sidebar-footer {
         left: -250px
     }
 
-    #main-wrapper[data-layout=horizontal].show-sidebar .left-sidebar,
-    #main-wrapper[data-layout=horizontal].show-sidebar .left-sidebar .sidebar-footer {
+    #main-wrapper[data-layout=vertical].show-sidebar .left-sidebar,
+    #main-wrapper[data-layout=vertical].show-sidebar .left-sidebar .sidebar-footer {
         left: 0
     }
 

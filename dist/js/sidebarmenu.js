@@ -9,15 +9,16 @@ File: js
 // ==============================================================
 $(function () {
   "use strict";
-  var url = window.location + "";
-  var path = url.replace(
-    window.location.protocol + "//" + window.location.host + "/",
-    ""
-  );
+  var url = window.location.href;
+  var path = url.replace(window.location.protocol + "//" + window.location.host + "/", "");
+
+  // Seleção automática do item de navegação ativo
   var element = $("ul#sidebarnav a").filter(function () {
-    return this.href === url || this.href === path; // || url.href.indexOf(this.href) === 0;
+    // Inclui comparação parcial de URLs
+    return this.href === url || this.href === path || url.indexOf(this.href) === 0;
   });
-  element.parentsUntil(".sidebar-nav").each(function (index) {
+
+  element.parentsUntil(".sidebar-nav").each(function () {
     if ($(this).is("li") && $(this).children("a").length !== 0) {
       $(this).children("a").addClass("active");
       $(this).parent("ul#sidebarnav").length === 0
@@ -31,32 +32,40 @@ $(function () {
   });
 
   element.addClass("active");
+
+  // Controle de expansão/contração de menus
   $("#sidebarnav a").on("click", function (e) {
     if (!$(this).hasClass("active")) {
-      // hide any open menus and remove all other classes
+      // Esconde menus abertos e remove classes
       $("ul", $(this).parents("ul:first")).removeClass("in");
       $("a", $(this).parents("ul:first")).removeClass("active");
 
-      // open our new menu and add the open class
+      // Expande o novo menu e adiciona classe 'active'
       $(this).next("ul").addClass("in");
       $(this).addClass("active");
-    } else if ($(this).hasClass("active")) {
+    } else {
+      // Colapsa o menu ativo
       $(this).removeClass("active");
       $(this).parents("ul:first").removeClass("active");
       $(this).next("ul").removeClass("in");
     }
   });
+
+  // Prevenir comportamento padrão nos links com submenus
   $("#sidebarnav >li >a.has-arrow").on("click", function (e) {
     e.preventDefault();
   });
 
-  // Auto scroll to the active nav
-  if ($(window).width() > 768 || window.Touch) {
-    $(".scroll-sidebar").animate(
-      {
-        scrollTop: $("#sidebarnav .sidebar-item.selected").offset().top - 250,
-      },
-      500
-    );
+  // Auto scroll para o item de navegação ativo
+  if ($(window).width() > 768 || 'ontouchstart' in window) {
+    var activeElement = $("#sidebarnav .sidebar-item.selected");
+    if (activeElement.length) {
+      $(".scroll-sidebar").animate(
+        {
+          scrollTop: activeElement.offset().top - 250,
+        },
+        500
+      );
+    }
   }
 });
